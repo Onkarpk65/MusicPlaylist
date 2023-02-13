@@ -1,0 +1,54 @@
+.tracks-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.track-img {
+  width: 180px;
+  height: 120px;
+}
+
+.track-details-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  color: white;
+  margin-right: auto;
+}
+
+.track-name {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.track-genre {
+  color: #3b82f6;
+  margin: 0px;
+}
+
+.duration-and-delete-button-container {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.duration {
+  color: white;
+  font-size: 23px;
+}
+
+.del-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.react-icon-delete {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
